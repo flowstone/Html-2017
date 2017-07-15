@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        #div1{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);//平移
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="div1" class="center-block text-center" style="width:500px;border:1px solid red;">
+            块元素居中
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                左侧
+            </div>
+            <div class="col-lg-4 visible-lg">
+                右侧
+            </div>
+        </div>
+    </div>
+</body>
+</html>
